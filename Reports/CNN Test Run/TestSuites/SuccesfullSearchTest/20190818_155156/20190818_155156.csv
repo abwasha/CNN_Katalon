@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SuccesfullSearchTest,Firefox 66.0,,2019-08-18 15:52:07,2019-08-18 15:52:49,41.739s,PASSED
+,,,,,,
+Test Cases/Cnn/SearchNFL,Firefox 66.0,,2019-08-18 15:52:08,2019-08-18 15:52:49,40.998s,PASSED
+Start listener action : beforeTestCase,Firefox 66.0,,2019-08-18 15:52:08,2019-08-18 15:52:33,25.467s,PASSED
+click,Firefox 66.0,,2019-08-18 15:52:34,2019-08-18 15:52:35,0.792s,PASSED
+waitForElementPresent,Firefox 66.0,,2019-08-18 15:52:35,2019-08-18 15:52:35,0.037s,PASSED
+click,Firefox 66.0,,2019-08-18 15:52:35,2019-08-18 15:52:35,0.259s,PASSED
+waitForElementPresent,Firefox 66.0,,2019-08-18 15:52:35,2019-08-18 15:52:35,0.024s,PASSED
+setText,Firefox 66.0,,2019-08-18 15:52:35,2019-08-18 15:52:35,0.087s,PASSED
+takeScreenshot,Firefox 66.0,,2019-08-18 15:52:35,2019-08-18 15:52:36,0.187s,PASSED
+click,Firefox 66.0,,2019-08-18 15:52:36,2019-08-18 15:52:41,5.090s,PASSED
+waitForElementPresent,Firefox 66.0,,2019-08-18 15:52:41,2019-08-18 15:52:41,0.196s,PASSED
+takeScreenshot,Firefox 66.0,,2019-08-18 15:52:41,2019-08-18 15:52:41,0.285s,PASSED
+cnn.VerifySearchResult.verifySuccessfullCNNPageSearch,Firefox 66.0,,2019-08-18 15:52:41,2019-08-18 15:52:42,1.342s,PASSED
+Start listener action : afterTestCase,Firefox 66.0,,2019-08-18 15:52:42,2019-08-18 15:52:49,6.518s,PASSED

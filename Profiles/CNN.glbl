@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>CNN</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://edition.cnn.com/'</initValue>
+      <name>CNNurl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'NFL'</initValue>
+      <name>validsearchString</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Displaying results \\d*\\S\\d* out of \\d* for '</initValue>
+      <name>regexStringPart1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>regexStringFull</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'NFLFake'</initValue>
+      <name>invalidsearchString</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Your search for '</initValue>
+      <name>UnsuccesfullStringPart1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>' did not match any documents.'</initValue>
+      <name>UnsuccesfullStringPart2</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

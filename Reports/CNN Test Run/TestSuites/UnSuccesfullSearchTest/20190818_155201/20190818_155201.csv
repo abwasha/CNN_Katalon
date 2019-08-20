@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+UnSuccesfullSearchTest,Chrome 76.0.3809.100,,2019-08-18 15:52:04,2019-08-18 15:52:35,30.824s,ERROR
+,,,,,,
+Test Cases/Cnn/SearchNFLFake,Chrome 76.0.3809.100,,2019-08-18 15:52:05,2019-08-18 15:52:35,30.248s,ERROR
+Start listener action : beforeTestCase,Chrome 76.0.3809.100,,2019-08-18 15:52:05,2019-08-18 15:52:24,18.652s,PASSED
+click,Chrome 76.0.3809.100,,2019-08-18 15:52:25,2019-08-18 15:52:25,0.418s,PASSED
+waitForElementPresent,Chrome 76.0.3809.100,,2019-08-18 15:52:25,2019-08-18 15:52:25,0.042s,PASSED
+click,Chrome 76.0.3809.100,,2019-08-18 15:52:25,2019-08-18 15:52:25,0.172s,PASSED
+waitForElementPresent,Chrome 76.0.3809.100,,2019-08-18 15:52:25,2019-08-18 15:52:25,0.034s,PASSED
+setText,Chrome 76.0.3809.100,,2019-08-18 15:52:25,2019-08-18 15:52:25,0.215s,PASSED
+takeScreenshot,Chrome 76.0.3809.100,,2019-08-18 15:52:25,2019-08-18 15:52:26,0.905s,PASSED
+click,Chrome 76.0.3809.100,,2019-08-18 15:52:26,2019-08-18 15:52:31,4.922s,PASSED
+waitForElementPresent,Chrome 76.0.3809.100,,2019-08-18 15:52:31,2019-08-18 15:52:31,0.099s,PASSED
+takeScreenshot,Chrome 76.0.3809.100,,2019-08-18 15:52:31,2019-08-18 15:52:32,0.467s,PASSED
+cnn.VerifySearchResult.verifyUnSuccessfullCNNPageSearch,Chrome 76.0.3809.100,,2019-08-18 15:52:32,2019-08-18 15:52:32,0.275s,FAILED
+Start listener action : afterTestCase,Chrome 76.0.3809.100,,2019-08-18 15:52:32,2019-08-18 15:52:35,3.042s,PASSED

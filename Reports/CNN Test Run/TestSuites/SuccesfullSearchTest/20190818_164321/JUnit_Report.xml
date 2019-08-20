@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SuccesfullSearchTest" time="43" tests="1" failures="0" errors="0">
+   <testsuite name="SuccesfullSearchTest" tests="1" failures="0" errors="0" time="43" timestamp="2019-08-18 16:43:34" hostname="ashariff - co-ashariff-lt1.us.int.genesyslab.com" id="Test Suites/CNN Test Run/TestSuites/SuccesfullSearchTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ashariff\\Katalon Studio\\CNN\\Reports\\CNN Test Run\\TestSuites\\SuccesfullSearchTest\\20190818_164321"/>
+         <property name="logFiles" value="C:\\Users\\ashariff\\Katalon Studio\\CNN\\Reports\\CNN Test Run\\TestSuites\\SuccesfullSearchTest\\20190818_164321\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ashariff\\Katalon Studio\\CNN\\Reports\\CNN Test Run\\TestSuites\\SuccesfullSearchTest\\20190818_164321\\1566164642270.png, C:\\Users\\ashariff\\Katalon Studio\\CNN\\Reports\\CNN Test Run\\TestSuites\\SuccesfullSearchTest\\20190818_164321\\1566164645024.png, C:\\Users\\ashariff\\Katalon Studio\\CNN\\Reports\\CNN Test Run\\TestSuites\\SuccesfullSearchTest\\20190818_164321\\1566164649833.png"/>
+         <property name="hostName" value="ashariff - co-ashariff-lt1.us.int.genesyslab.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Firefox 66.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="c5db6a6e-7703-475e-8f81-ec1dd642e028"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Cnn/SearchNFL" classname="Test Cases/Cnn/SearchNFL" status="PASSED">
+         <system-out><![CDATA[2019-08-18 16:43:36 - [TEST_CASE][PASSED] - Test Cases/Cnn/SearchNFL: Test Cases/Cnn/SearchNFL
+
+2019-08-18 16:43:36 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'CNNListener.beforeTestCase(...)' completed.
+
+2019-08-18 16:43:36 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-08-18 16:43:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-08-18 16:43:48 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-08-18 16:43:48 - [MESSAGE][PASSED] - Current window maximized
+
+2019-08-18 16:43:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://edition.cnn.com/' successfully
+
+2019-08-18 16:44:02 - [MESSAGE][PASSED] - Navigate to 'https://edition.cnn.com/' successfully
+
+2019-08-18 16:44:02 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/CNN/search_Button_HomePage' is present
+
+2019-08-18 16:44:02 - [MESSAGE][PASSED] - Object 'Object Repository/CNN/search_Button_HomePage' is present
+
+2019-08-18 16:44:02 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2019-08-18 16:44:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ashariff\\Katalon Studio\\CNN\\Reports\\CNN Test Run\\TestSuites\\SuccesfullSearchTest\\20190818_164321\\1566164642270.png]]
+
+2019-08-18 16:44:03 - [TEST_STEP][PASSED] - Statement - Title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'CNN International - Breaking News, US News, World News and Video'
+
+2019-08-18 16:44:03 - [MESSAGE][PASSED] - Current window's title is: 'CNN International - Breaking News, US News, World News and Video'
+
+2019-08-18 16:44:03 - [TEST_STEP][PASSED] - Statement - assert Title.contains("CNN"): null
+
+2019-08-18 16:44:03 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.util.KeywordUtil.logInfo(Title): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'CNNListener.beforeTestCase(...)' completed.
+
+2019-08-18 16:44:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CNN/search_Button_HomePage' is clicked on
+
+2019-08-18 16:44:04 - [MESSAGE][PASSED] - Object: 'Object Repository/CNN/search_Button_HomePage' is clicked on
+
+2019-08-18 16:44:04 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/CNN/input_text_bar' is present
+
+2019-08-18 16:44:04 - [MESSAGE][PASSED] - Object 'Object Repository/CNN/input_text_bar' is present
+
+2019-08-18 16:44:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CNN/input_text_bar' is clicked on
+
+2019-08-18 16:44:04 - [MESSAGE][PASSED] - Object: 'Object Repository/CNN/input_text_bar' is clicked on
+
+2019-08-18 16:44:04 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/CNN/searchText_button' is present
+
+2019-08-18 16:44:04 - [MESSAGE][PASSED] - Object 'Object Repository/CNN/searchText_button' is present
+
+2019-08-18 16:44:04 - [TEST_STEP][PASSED] - setText: Text 'NFL' is set on object 'Object Repository/CNN/input_text_bar'
+
+2019-08-18 16:44:05 - [MESSAGE][PASSED] - Text 'NFL' is set on object 'Object Repository/CNN/input_text_bar'
+
+2019-08-18 16:44:05 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2019-08-18 16:44:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ashariff\\Katalon Studio\\CNN\\Reports\\CNN Test Run\\TestSuites\\SuccesfullSearchTest\\20190818_164321\\1566164645024.png]]
+
+2019-08-18 16:44:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CNN/searchText_button' is clicked on
+
+2019-08-18 16:44:09 - [MESSAGE][PASSED] - Object: 'Object Repository/CNN/searchText_button' is clicked on
+
+2019-08-18 16:44:09 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/CNN/div_resultlist' is present
+
+2019-08-18 16:44:09 - [MESSAGE][PASSED] - Object 'Object Repository/CNN/div_resultlist' is present
+
+2019-08-18 16:44:09 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2019-08-18 16:44:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\ashariff\\Katalon Studio\\CNN\\Reports\\CNN Test Run\\TestSuites\\SuccesfullSearchTest\\20190818_164321\\1566164649833.png]]
+
+2019-08-18 16:44:10 - [TEST_STEP][PASSED] - cnn.VerifySearchResult.verifySuccessfullCNNPageSearch: cnn.VerifySearchResult.verifySuccessfullCNNPageSearch is PASSED
+
+2019-08-18 16:44:11 - [MESSAGE][PASSED] - Text 'Displaying results \d*\S\d* out of \d* for NFL' is present on page  using regular expression
+
+2019-08-18 16:44:11 - [MESSAGE][PASSED] - cnn.VerifySearchResult.verifySuccessfullCNNPageSearch is PASSED
+
+2019-08-18 16:44:11 - [TEST_STEP][PASSED] - Start listener action : afterTestCase: Browser is closed
+
+2019-08-18 16:44:11 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2019-08-18 16:44:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-08-18 16:43:34 - [TEST_SUITE][PASSED] - SuccesfullSearchTest: Test Cases/Cnn/SearchNFL]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
